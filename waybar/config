@@ -1,0 +1,58 @@
+// -*- mode: jsonc -*-
+{
+    "height": 35,
+
+    "spacing": 5,
+
+    "modules-left": [
+	"hyprland/workspaces",
+	"pulseaudio"
+    ],
+
+    "modules-center": [
+	"hyprland/window"
+    ],
+
+    "modules-right": [
+        "tray",
+        "custom/sep",
+        "clock"
+    ],
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+		 },
+	 },
+
+    "wlr/workspaces": {
+        "on-click": "activate",
+        "format": "{name}",
+        "all-outputs": true,
+        "disable-scroll": false,
+        "active-only": false,
+    },
+
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "Volume: {volume}%",
+        },
+        "on-click": "pavucontrol"
+    },
+
+    "hyprland/window": {
+	format: {title}
+        icon-size: 24 
+	},
+
+    "custom/sep": {
+        "format": "|",
+        "tooltip": false,
+    },
+    }
+}

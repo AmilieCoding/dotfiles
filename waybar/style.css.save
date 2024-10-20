@@ -1,0 +1,30 @@
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2ypx;
+}
+
+window#waybar {
+    background: rgba(43, 48, 59, 0);
+    border-bottom: 3px solid rgba(100, 114, 125, 0);
+}
+
+#clock {
+    background-color: #3D4235;
+    padding: 5px;
+}
+
+#pulseaudio {
+    background-color: #3D4235;
+    padding: 5px;
+}
+
+#tray {
+    background-color: #3D4235;
+    padding: 5px;
+}

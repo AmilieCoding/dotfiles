@@ -1,0 +1,36 @@
+window {
+border-radius: 10px;
+margin: 0px;
+background-color: #3e8fb0;
+font-family: Cousine Nerd Font;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #ffffff;
+background-color: #9ccfd8;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: #327894;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #3e8fb0;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #f8f8f2;
+} 
+
+#entry:selected {
+background-color: #255c73;
+border-radius: 10;
+}
