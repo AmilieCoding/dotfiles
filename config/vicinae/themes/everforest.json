@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "appearance": "dark",
+  "icon": "./everforest.png",
+  "name": "Everforest Dark",
+  "description": "Soft, warm, and earthy tones designed for comfortable dark environments",
+  "palette": {
+    "background": "#2d353b",
+    "foreground": "#d3c6aa",
+    "blue": "#7fbbb3",
+    "green": "#a7c080",
+    "magenta": "#d699b6",
+    "orange": "#e69875",
+    "purple": "#d699b6",
+    "red": "#e67e80",
+    "yellow": "#dbbc7f",
+    "cyan": "#83c092"
+  }
+}
