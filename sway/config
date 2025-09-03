@@ -1,5 +1,0 @@
-include /etc/sway/config.d/*
-include /home/amilie/.config/sway/appearance.conf
-include /home/amilie/.config/sway/binds.conf
-include /home/amilie/.config/sway/displays.conf
-include /home/amilie/.config/sway/misc.conf
